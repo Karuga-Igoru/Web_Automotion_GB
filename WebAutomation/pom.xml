@@ -5,12 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>HW2</artifactId>
+  <artifactId>WebAutomation</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>HW2</name>
+  <name>WebAutomation</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/Karuga-Igoru/Web_Automotion_GB</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,6 +28,12 @@
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>4.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.8.2</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 

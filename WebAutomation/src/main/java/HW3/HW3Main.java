@@ -1,4 +1,4 @@
-package org.example;
+package HW3;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
