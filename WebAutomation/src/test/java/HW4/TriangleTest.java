@@ -31,10 +31,9 @@ public class TriangleTest {
     }
 
     @Test
-    void exceptionCatch() throws TriangleException {
-        TriangleException t = assertThrows(TriangleException.class, () -> triangle2.findingTriangleSquare(),
-        "Triangle with wrong sides throw it");
-        //not work!
+    void exceptionCatch(){
+        assertThrows(TriangleException.class, () -> triangle2.findingTriangleSquare(),
+                "Triangle with wrong sides throw it");
     }
 
 

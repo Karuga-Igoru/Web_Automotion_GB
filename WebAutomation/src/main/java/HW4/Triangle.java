@@ -14,14 +14,11 @@ public class Triangle {
     }
 
     public Double findingTriangleSquare() throws TriangleException{
-        try {
+
             if ((firstSide + secondSide < thirdSide) ||
                     (firstSide + thirdSide < secondSide) ||
                     (secondSide + thirdSide < firstSide)) throw new TriangleException();
-        } catch (TriangleException e) {
-            System.out.println(e.info(firstSide, secondSide, thirdSide));
-            return 0.0;
-        }
+
         int p = (firstSide + secondSide + thirdSide) / 2;
         return Math.sqrt(p * (p - firstSide) * (p - secondSide) * (p - thirdSide));
     }
